@@ -53,12 +53,12 @@
 # print(my_str[:-2])
 
 
-# N = int(input('Введите число:'))
-# my_list = []
-# for i in range(-N,N+1):
-#     my_list.append(i)
+N = int(input('Введите число:'))
+my_list = []
+for i in range(-N,N+1):
+    my_list.append(i)
 
-# print(*my_list, sep=', ') раскрытие списка с разделителем sep
+print(*my_list, sep=', ') #раскрытие списка с разделителем sep
 
 
 # На вход принимается дробное число  и показывать первую цифру дробной части числа
@@ -81,17 +81,17 @@
 #     print(int(number*10)%10)
 
 
-number = input('Введите число: ')
+# number = input('Введите число: ')
 
-# for i in range(len(number)):
-#     if number[i] =='.':
-#         print(number[i+1])
+# # for i in range(len(number)):
+# #     if number[i] =='.':
+# #         print(number[i+1])
 
-number=number.split('.')
+# number=number.split('.')
 
-if len(number)<2:
-    print('целое')
-else:
-    print(number[1][0])
+# if len(number)<2:
+#     print('целое')
+# else:
+#     print(number[1][0])
 
 
